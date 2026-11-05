@@ -1,0 +1,270 @@
+<p align="center">
+  <img src="static/logo_big.png" width="96" alt="logo mdpeek">
+</p>
+
+<h1 align="center">mdpeek</h1>
+
+<p align="center">
+  <strong>Lisez vos fichiers Markdown comme des pages web — un visualiseur et éditeur de 3 Mo.</strong> Double-cliquez sur n'importe quel fichier .md pour l'ouvrir instantanément, appuyez sur F2 pour éditer sur place.<br>
+  Windows · macOS · Linux · Android &nbsp;|&nbsp; Construit avec Rust + WebView2, sans Electron
+</p>
+
+<p align="center">
+  <a href="https://www.mdpeek.net/">Site web</a> ·
+  <a href="https://github.com/mdpeek2026/mdpeek/releases/latest">Télécharger</a> ·
+  <a href="https://www.mdpeek.net/changelog.html">Nouveautés</a> ·
+  <a href="https://www.mdpeek.net/blog/">Blog</a> ·
+  <a href="docs/facts.md">Docs</a>
+</p>
+
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.es.md">Español</a> ·
+  <a href="README.fr.md">Français</a>
+</p>
+
+---
+
+La plupart du temps, quand vous ouvrez un fichier `.md`, vous voulez juste le **lire** — un README, des notes, une réponse générée par une IA. Démarrer un éditeur complet pour ça, c'est utiliser un marteau-pilon pour écraser une mouche. mdpeek l'ouvre instantanément comme une page web, et quand vous avez vraiment besoin d'éditer, `F2` vous offre du WYSIWYG façon Obsidian dans la même fenêtre — sans basculer vers une autre application.
+
+<p align="center">
+  <a href="https://youtu.be/3tiFsRD2RRI" title="mdpeek — Open Markdown files like a web page">
+    <img src="https://i.ytimg.com/vi/3tiFsRD2RRI/maxresdefault.jpg" alt="Vidéo de démonstration de mdpeek — double-cliquez sur un fichier .md et lisez-le comme une page web" width="640">
+  </a>
+</p>
+
+**Plus de démos courtes :** [Onglets et `Ctrl+Tab`](https://youtu.be/CkzQVBAAamc) · [Mermaid plein écran](https://youtu.be/fTbM_msg9Q0) · [Formules KaTeX](https://youtu.be/eqD_Flb6f2s) · [Recherche et zoom](https://youtu.be/K94Vp3zFK1U) · [Blocs de code et tableaux](https://youtu.be/vLYCcgMpoLw) · [Mode sombre et 9 thèmes](https://youtu.be/RqUUiXgvsEo) · [Intro de 85 s](https://youtu.be/t85oxBKi3AU) · [Chaîne YouTube](https://www.youtube.com/@mdpeek-d5x)
+
+- **Application minuscule.** Installateur de 3 Mo, ouverture en moins d'une seconde, zéro configuration
+- **Aperçu à onglets (2.0).** Tous vos documents dans une seule fenêtre — `Ctrl+Tab` pour basculer, défilement et état d'édition préservés
+- **Zéro encombrement.** Lecture pleine page et épurée — pas de barres d'outils, pas de panneaux que vous n'avez pas demandés
+- **Édition sur place.** `F2` WYSIWYG façon Obsidian, `F3` double colonne avec aperçu en direct
+- **100 % local** — sans compte, sans publicité, vos fichiers ne quittent jamais votre ordinateur
+
+<p align="center">
+  <img src="web_en/img/shots125/gallery-01-hero.png" alt="mdpeek affichant un fichier Markdown comme une page web — panneau du plan à gauche, titres, listes, tableaux et un bloc de code coloré" width="1080">
+</p>
+
+## Téléchargement
+
+| Plateforme | Community (gratuit à vie) | Pro (9,99 $ à vie) |
+|---|---|---|
+| Windows 10/11 | [mdpeek-setup-latest.exe](https://github.com/mdpeek2026/mdpeek/releases/latest/download/mdpeek-setup-latest.exe) | [mdpeek-setup-pro-latest.exe](https://github.com/mdpeek2026/mdpeek/releases/latest/download/mdpeek-setup-pro-latest.exe) |
+| macOS 11+ | [mdpeek-macos-latest.dmg](https://github.com/mdpeek2026/mdpeek/releases/latest/download/mdpeek-macos-latest.dmg) | [mdpeek-macos-pro-latest.dmg](https://github.com/mdpeek2026/mdpeek/releases/latest/download/mdpeek-macos-pro-latest.dmg) |
+| Linux x86_64 | [mdpeek-linux-latest.tar.gz](https://www.mdpeek.net/download/mdpeek-linux-latest.tar.gz) | [mdpeek-linux-pro-latest.tar.gz](https://www.mdpeek.net/download/mdpeek-linux-pro-latest.tar.gz) |
+| Android 7.0+ | [mdpeek.apk](https://www.mdpeek.net/download/mdpeek.apk) | — |
+
+Les deux éditions sont le même produit et s'écrasent mutuellement à l'installation — changez quand vous voulez. Android n'existe qu'en édition Community.
+
+> **Alerte SmartScreen ?** Windows signale les applications sans certificat de signature de code coûteux. Cliquez sur **Informations complémentaires → Exécuter quand même**. mdpeek fonctionne entièrement en local et n'envoie rien.
+
+## Pourquoi mdpeek
+
+Vous double-cliquez sur un `.md` pour le lire — pas pour démarrer un IDE. Voyez-le comme le **Quick Look du Markdown** :
+
+| | mdpeek | Typora / VS Code | Extension de navigateur |
+|---|---|---|---|
+| Taille d'installation | **3 Mo** | 100–400 Mo | — (mais nécessite un navigateur) |
+| Double-clic sur un .md | **Instantané** | 3–5 s de démarrage de l'éditeur | Glisser-déposer ou copier-coller à chaque fois |
+| Interface pensée pour la lecture | **Zéro fioriture** | Barres d'outils, panneaux, onglets | L'interface du navigateur autour |
+| Conçu pour | **Lire** | Écrire du code / de la doc | Aperçu occasionnel |
+
+Ils se complètent — gardez votre éditeur pour écrire, et utilisez mdpeek pour les 90 % du temps où vous ne faites que lire.
+
+## Nouveautés de la 2.0
+
+### Aperçu à onglets — tous les documents, une seule fenêtre (Community et Pro)
+
+Cahiers des charges, notes d'API, comptes rendus de réunion et brouillons d'IA cessent de s'empiler dans la barre des tâches. Chaque onglet est sa propre WebView, donc basculer ne relance jamais le rendu — la position de défilement et l'état d'édition F2/F3 restent exactement où vous les avez laissés.
+
+- `Ctrl+Tab` fait défiler les onglets, `Alt+1–9` saute directement à un onglet ; glissez pour réordonner, épinglez un onglet ou fermez-les en masse
+- Double-cliquez sur un fichier déjà ouvert et mdpeek active son onglet au lieu d'ouvrir une seconde fenêtre
+- Les onglets, leur ordre et leur état épinglé sont restaurés après un redémarrage ; les onglets en arrière-plan ne sont pas pré-rendus, donc le démarrage à froid reste rapide
+
+### Historique des versions — l'annulation qui survit à la fenêtre (Pro)
+
+mdpeek enregistre un instantané à chaque enregistrement, modification externe, entrée/sortie du mode édition et fermeture de fenêtre. Parcourez la chronologie, nommez les versions importantes, masquez le bruit, restaurez en un clic et comparez deux versions côte à côte ou en ligne. L'historique réside dans un fichier SQLite local et n'est jamais téléversé.
+
+## Fonctionnalités
+
+### Aperçu
+
+- **Double-clic pour ouvrir** — l'installateur associe automatiquement les fichiers `.md` ; également `Ctrl+O`, glisser-déposer et le menu contextuel de l'Explorateur
+- **Rafraîchissement en direct** — enregistrez dans n'importe quel éditeur et la page se re-renderise instantanément (push SSE), en conservant votre position de défilement
+- **Panneau de plan** — sommaire flottant avec saut au clic et synchronisation du défilement, plus les onglets **Historique** (groupé par jour), **Favoris** et **Fichiers** (parcourez les fichiers .md voisins comme dans un explorateur)
+- **Mémoire de position de lecture** — rouvre là où vous vous étiez arrêté ; une seule fenêtre par fichier
+- **9 thèmes de couleur + mode clair/sombre** — Glacier, Forest, Sunset, Typewriter… un clic droit pour changer
+- **Contrôles typographiques** — choisissez n'importe quelle police installée ; `Ctrl+molette` pour la taille, `Alt+molette` pour la largeur de colonne (reflow réel, pas un zoom bitmap)
+- **Raccourcis personnalisables** — schémas de touches prédéfinis à changer en un clic ; presque chaque action peut être réassignée
+- **Rendu complet** — tableaux alignés, notes de bas de page avec liens de retour, images locales, blocs de code colorés (copier / retour à la ligne / numéros de ligne)
+- **Export PDF et HTML autonome** (images intégrées, fonctionne hors ligne), option de saut de ligne simple, repli d'encodage GBK/GB18030, vérification automatique des mises à jour
+
+<table>
+  <tr>
+    <td><img src="web_en/img/shots125/gallery-02a-outline.png" alt="panneau de plan mdpeek mettant en surbrillance le titre actuel pendant le défilement"></td>
+    <td><img src="web_en/img/shots125/gallery-02b-history.png" alt="panneau d'historique mdpeek regroupant par jour les fichiers Markdown récemment ouverts"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Le plan suit votre défilement</sub></td>
+    <td align="center"><sub>Historique et favoris, groupés par jour</sub></td>
+  </tr>
+</table>
+
+**9 thèmes de couleur + mode sombre**, un clic droit pour changer :
+
+<table>
+  <tr>
+    <td><img src="web_en/img/shots125/gallery-03-themes-default.png" alt="thème clair par défaut de mdpeek"></td>
+    <td><img src="web_en/img/shots125/gallery-03-themes-dark.png" alt="thème mode sombre de mdpeek"></td>
+    <td><img src="web_en/img/shots125/gallery-03-themes-glacier.png" alt="thème Glacier de mdpeek, tons bleus froids"></td>
+    <td><img src="web_en/img/shots125/gallery-03-themes-typewriter.png" alt="thème Typewriter de mdpeek, style machine à écrire monospace"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Default</sub></td>
+    <td align="center"><sub>Dark</sub></td>
+    <td align="center"><sub>Glacier</sub></td>
+    <td align="center"><sub>Typewriter</sub></td>
+  </tr>
+  <tr>
+    <td><img src="web_en/img/shots125/gallery-03-themes-sunset.png" alt="thème Sunset de mdpeek, tons ambre chauds"></td>
+    <td><img src="web_en/img/shots125/gallery-03-themes-forest.png" alt="thème Forest de mdpeek, tons verts apaisants"></td>
+    <td><img src="web_en/img/shots125/gallery-03-themes-editorial.png" alt="thème Editorial de mdpeek, style magazine avec serif"></td>
+    <td><img src="web_en/img/shots125/gallery-03-themes-violet.png" alt="thème Violet de mdpeek, tons violets"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Sunset</sub></td>
+    <td align="center"><sub>Forest</sub></td>
+    <td align="center"><sub>Editorial</sub></td>
+    <td align="center"><sub>Violet</sub></td>
+  </tr>
+  <tr>
+    <td><img src="web_en/img/shots125/gallery-03-themes-lychee.png" alt="thème Lychee de mdpeek, tons rouges doux"></td>
+    <td><img src="web_en/img/shots125/gallery-03-themes-mint.png" alt="thème Mint de mdpeek, tons menthe frais"></td>
+    <td><img src="web_en/img/shots125/gallery-03-themes-neon.png" alt="thème Neon de mdpeek, contraste vif éclatant"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Lychee</sub></td>
+    <td align="center"><sub>Mint</sub></td>
+    <td align="center"><sub>Neon</sub></td>
+    <td></td>
+  </tr>
+</table>
+
+### Édition
+
+| Touche | Mode | Édition |
+|---|---|---|
+| `F2` | **Édition en direct** — WYSIWYG façon Obsidian dans l'aperçu : mise en forme, liens, tableaux (opérations lignes/colonnes), encadrés | Pro |
+| `F3` | **Édition double colonne** — source à gauche, aperçu en direct à droite, défilement synchronisé par section ; `Tab` développe les extraits ; coller une image/fichier l'enregistre automatiquement dans `.__assets/` et insère le Markdown | Pro |
+| `F4` / `Ctrl+E` | **Édition externe** — ouvre VS Code / Sublime / Notepad++ / le Bloc-notes (détection auto) à la ligne exacte du texte sélectionné | Gratuit |
+| `Esc` / `Ctrl+W` | Fermer la fenêtre | Gratuit |
+
+<p align="center">
+  <img src="web_en/img/shots125/gallery-04-editing.png" alt="édition double colonne F3 de mdpeek : source Markdown à gauche, aperçu rendu en direct à droite" width="1080">
+</p>
+
+**Plugins d'aperçu en direct pour Sublime Text et VS Code (Pro)** — l'aperçu se rafraîchit au fil de la frappe, avec synchronisation bidirectionnelle du curseur et de la sélection.
+
+### Rendu Pro
+
+- **Diagrammes Mermaid** (organigrammes / séquence / Gantt) avec visionneuse plein écran au double-clic — zoom molette, panoramique au glisser
+- **Formules mathématiques KaTeX** — LaTeX en ligne `$...$` et en bloc `$$...$$`
+- **Vue plein écran en carte mentale** — clic droit « Afficher en carte mentale » : les titres en branches, les listes en feuilles ; molette pour zoomer, glisser pour naviguer, clic pour replier
+- Les moteurs de rendu se téléchargent une seule fois à la première utilisation, puis fonctionnent entièrement hors ligne
+
+<table>
+  <tr>
+    <td><img src="web_en/img/shots125/gallery-05a-mermaid.png" alt="organigramme Mermaid rendu par mdpeek Pro dans un document Markdown"></td>
+    <td><img src="web_en/img/shots125/gallery-05b-katex.png" alt="formules mathématiques KaTeX rendues par mdpeek Pro, équation BM25 en LaTeX"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Diagrammes Mermaid</sub></td>
+    <td align="center"><sub>Maths KaTeX</sub></td>
+  </tr>
+</table>
+
+## Tarif
+
+| | Community | Pro |
+|---|---|---|
+| Prix | **Gratuit à vie** (sponsoring optionnel) | **9,99 $** déblocage unique à vie (Gumroad : carte / PayPal) |
+| Fonctions de lecture principales | ✅ tout | ✅ tout |
+| Aperçu à onglets (2.0) | ✅ | ✅ |
+| Historique des versions + diff | — | ✅ |
+| Mermaid + KaTeX | — | ✅ |
+| Édition en direct (F2) + double colonne (F3) | — | ✅ |
+| Essai | — | 100 ouvertures gratuites, puis une invite « Peut-être plus tard » escamotable — **jamais de verrouillage forcé** |
+
+## Démarrage rapide
+
+1. Téléchargez et lancez l'installateur (ou le `mdpeek.exe` portable)
+2. Il associe automatiquement les fichiers `.md` (dissociez quand vous voulez : clic droit → Paramètres, ou `mdpeek --unbind`)
+3. Double-cliquez sur n'importe quel fichier Markdown et lisez
+
+## Ligne de commande
+
+```bash
+mdpeek                     # exécuter une fois : associe automatiquement les fichiers .md
+mdpeek <fichier.md>        # prévisualiser un fichier précis
+mdpeek --install           # ajouter « Ouvrir avec mdpeek » au menu contextuel de l'Explorateur
+mdpeek --uninstall         # retirer le menu contextuel
+mdpeek --settings          # fenêtre de paramètres (association, fichiers récents, éditeur)
+mdpeek --unbind            # retirer l'association par défaut des .md
+mdpeek --help              # aide
+```
+
+## Variables d'environnement
+
+| Variable | Description |
+|---|---|
+| `PORT` | Port du serveur HTTP (par défaut : port libre aléatoire, repli 3456) |
+| `MD_HTML=1` | Produire aussi un `.html` rendu à côté du fichier `.md` |
+| `MD_HTML_OUTPUT=<chemin>` | Écrire le `.html` à un emplacement précis |
+| `MD_EDITOR` | Commande d'éditeur pour `F4` (ex. `code --goto "{file}:{line}"`) ; détection auto si non définie |
+
+## FAQ
+
+<details>
+<summary><strong>Comment ouvrir des fichiers .md sur Windows ?</strong></summary>
+
+Installez mdpeek une fois et il associe les fichiers `.md` pour vous. Ensuite, double-cliquez sur n'importe quel fichier Markdown : il s'ouvre rendu comme une page web — sans éditeur, sans extension de navigateur, sans configuration.
+</details>
+
+<details>
+<summary><strong>mdpeek est-il gratuit ?</strong></summary>
+
+Oui. L'édition Community est gratuite à vie avec l'expérience de lecture complète, y compris l'aperçu à onglets ajouté en 2.0. L'édition Pro ajoute l'historique des versions intégré avec diff, les diagrammes Mermaid, les maths KaTeX et deux modes d'édition (F2 en direct, F3 double colonne) pour 9,99 $ une seule fois à vie — avec d'abord 100 ouvertures d'essai gratuites, puis une simple invite « Peut-être plus tard » escamotable. Jamais de verrouillage forcé.
+</details>
+
+<details>
+<summary><strong>En quoi diffère-t-il de Typora ou VS Code ?</strong></summary>
+
+Typora et VS Code sont des éditeurs — puissants, mais lourds quand vous voulez seulement lire. mdpeek est un visualiseur dédié : un installateur de 3 Mo qui ouvre en moins d'une seconde et se ferme avec `Esc`. Voyez-le comme le Quick Look du Markdown. Ils se complètent.
+</details>
+
+<details>
+<summary><strong>mdpeek envoie-t-il mes fichiers ?</strong></summary>
+
+Non. mdpeek fonctionne 100 % en local. Il démarre seulement un serveur temporaire sur `localhost` pour rendre la page — votre Markdown ne quitte jamais votre ordinateur. Sans compte, sans publicité, sans traçage.
+</details>
+
+<details>
+<summary><strong>Quelle est la configuration requise ?</strong></summary>
+
+Windows 10/11 avec le runtime WebView2 (préinstallé sur Windows 11 et la plupart des PC Windows 10) · macOS 11 Big Sur ou ultérieur · Linux x86_64 (Ubuntu / Debian / Fedora / Arch ; GTK3 + WebKitGTK) · Android 7.0 ou ultérieur.
+</details>
+
+## Pile technique
+
+- **Langage** : Rust (édition 2021)
+- **GUI** : wry (WebView2) + tao
+- **HTTP** : axum + tokio (localhost uniquement)
+- **Markdown** : md4c embarqué
+- **Surveillance de fichiers** : notify + rechargement en direct SSE
+- **Styles** : Tailwind CSS
+
+## Contact
+
+Questions, rapports de bugs, licences ou toute autre demande : **support@mdpeek.net**
