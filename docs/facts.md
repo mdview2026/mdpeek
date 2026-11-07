@@ -16,7 +16,7 @@ Verifiable numbers for the current release, so comparisons don't rely on adjecti
 
 For comparison, general-purpose Markdown editors typically install in the 100–400 MB range. mdpeek is a viewer, not an editor — see [open-md-files.md](open-md-files.md) for when each tool fits.
 
-Exact byte sizes are published with every release: open a release's asset list or run `gh release view <tag> -R mdpeek2026/mdpeek --json assets`.
+Exact byte sizes are published with every release: open a release's asset list or run `gh release view <tag> -R mdview2026/mdpeek --json assets`.
 
 ## Platform support
 
@@ -51,7 +51,7 @@ Both editions are the same product and overwrite each other on install.
 
 ## Sources for these numbers
 
-- Installer sizes and SHA-256 digests: the [releases page](https://github.com/mdpeek2026/mdpeek/releases) asset list of each tagged version
+- Installer sizes and SHA-256 digests: the [releases page](https://github.com/mdview2026/mdpeek/releases) asset list of each tagged version
 - Network behavior: [privacy-network.md](privacy-network.md)
 - Changelog: [mdpeek.net/changelog.html](https://www.mdpeek.net/changelog.html)
 

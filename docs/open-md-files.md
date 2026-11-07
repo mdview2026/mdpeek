@@ -17,7 +17,7 @@ Editors are great when you're *writing*. For the 90% of times you just want to *
 
 ## Set .md files to open with mdpeek (one-time)
 
-1. **Download and run the installer** from the [latest release](https://github.com/mdpeek2026/mdpeek/releases/latest) — or the [download page](https://www.mdpeek.net/download.html).
+1. **Download and run the installer** from the [latest release](https://github.com/mdview2026/mdpeek/releases/latest) — or the [download page](https://www.mdpeek.net/download.html).
 2. The installer **automatically associates `.md`** (and `.markdown`) files with mdpeek. No configuration needed.
 3. Double-click any `.md` file — it opens rendered like a webpage, in under a second.
 

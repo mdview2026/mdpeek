@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://www.mdpeek.net/">Website</a> ·
-  <a href="https://github.com/mdpeek2026/mdpeek/releases/latest">Download</a> ·
+  <a href="https://github.com/mdview2026/mdpeek/releases/latest">Download</a> ·
   <a href="https://www.mdpeek.net/changelog.html">Changelog</a> ·
   <a href="https://www.mdpeek.net/blog/">Blog</a> ·
   <a href="docs/facts.md">Docs</a>
@@ -50,8 +50,8 @@ Most of the time you open a `.md` file, you just want to **read** it — a READM
 
 | Platform | Community (free forever) | Pro ($9.99 lifetime) |
 |---|---|---|
-| Windows 10/11 | [mdpeek-setup-latest.exe](https://github.com/mdpeek2026/mdpeek/releases/latest/download/mdpeek-setup-latest.exe) | [mdpeek-setup-pro-latest.exe](https://github.com/mdpeek2026/mdpeek/releases/latest/download/mdpeek-setup-pro-latest.exe) |
-| macOS 11+ | [mdpeek-macos-latest.dmg](https://github.com/mdpeek2026/mdpeek/releases/latest/download/mdpeek-macos-latest.dmg) | [mdpeek-macos-pro-latest.dmg](https://github.com/mdpeek2026/mdpeek/releases/latest/download/mdpeek-macos-pro-latest.dmg) |
+| Windows 10/11 | [mdpeek-setup-latest.exe](https://github.com/mdview2026/mdpeek/releases/latest/download/mdpeek-setup-latest.exe) | [mdpeek-setup-pro-latest.exe](https://github.com/mdview2026/mdpeek/releases/latest/download/mdpeek-setup-pro-latest.exe) |
+| macOS 11+ | [mdpeek-macos-latest.dmg](https://github.com/mdview2026/mdpeek/releases/latest/download/mdpeek-macos-latest.dmg) | [mdpeek-macos-pro-latest.dmg](https://github.com/mdview2026/mdpeek/releases/latest/download/mdpeek-macos-pro-latest.dmg) |
 | Linux x86_64 | [mdpeek-linux-latest.tar.gz](https://www.mdpeek.net/download/mdpeek-linux-latest.tar.gz) | [mdpeek-linux-pro-latest.tar.gz](https://www.mdpeek.net/download/mdpeek-linux-pro-latest.tar.gz) |
 | Android 7.0+ | [mdpeek.apk](https://www.mdpeek.net/download/mdpeek.apk) | — |
 
